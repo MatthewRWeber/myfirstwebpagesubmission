@@ -1,0 +1,58 @@
+/* Element selectors */
+body {
+    margin: 0;
+    color: #171b24;
+    font: 1rem/1.65 Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #123f83;
+    line-height: 1.15;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(2rem, 6vw, 4rem);
+}
+
+h2 {
+    margin: 2.5rem 0 0.75rem;
+    font-size: clamp(1.4rem, 4vw, 2rem);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.65rem;
+}
+
+hr {
+    border: 0;
+    border-top: 3px solid #ec268f;
+    margin: 1.5rem 0;
+}
+
+a {
+    color: #174a9c;
+    text-underline-offset: 0.2em;
+}
+
+/* Class selector */
+.race-banner {
+    display: block;
+    padding: 0.55rem 0;
+    border-radius: 0.35rem;
+    background: #123f83;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* ID selector */
+#racing-page {
+    box-sizing: border-box;
+    max-width: 62rem;
+    margin-inline: auto;
+    padding: clamp(1rem, 4vw, 3rem);
+    background: #f2f4f8;
+}
